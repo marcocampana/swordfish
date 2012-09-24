@@ -6,6 +6,7 @@ gem 'mongo'
 gem 'toystore-mongo', :require => 'toystore-mongo'
 gem 'net-ssh' # for RSA key fingerprinting
 gem 'dotenv', :group => [:test, :development]
+gem 'thin'
 
 group :assets do
   gem 'sass-rails'
